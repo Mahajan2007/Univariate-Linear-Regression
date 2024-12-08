@@ -26,8 +26,8 @@ ymean=np.mean(y)
 num=0
 den=0
 for i in range (len(x)):
-num+=(x[i]-xmean)*(y[i]-ymean)
-den+=(x[i]-xmean)**2
+  num+=(x[i]-xmean)*(y[i]-ymean)
+  den+=(x[i]-xmean)**2
 m=num/den
 b=ymean-m*xmean
 print(m,b)
@@ -36,12 +36,13 @@ print(ypred)
 plt.scatter(x,y,color='Red')
 plt.plot(x,ypred,color='Blue')
 plt.show()
+
 ```
 ## Output
-</br>
-</br>
-</br>
-</br>
+![outputex9](https://github.com/user-attachments/assets/dfce04bb-a53a-4d62-991e-9bd6c4ba4fd0)
+![output2ex9](https://github.com/user-attachments/assets/6a9a2f9f-f502-450f-ac83-a3611c8b148a)
+
+
 
 ## Result
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares.
